@@ -1,0 +1,21 @@
+<p>homepage works!</p>
+
+<div  *ngFor="let items of data; index as i" class="">
+  
+       <div class="d-flex flex border b-2  shadow   ">
+        <div class="my-3">{{items.name}}</div> 
+        <div class="my-3">{{items.genre}}</div>
+        <div class="my-3">{{items.description}}</div> 
+    
+           </div> 
+</div>
+
+<div>
+   <button type="button" class="btn btn-secondary" (click)="logout()"> logout</button>
+</div>
+
+
+
+
+
+

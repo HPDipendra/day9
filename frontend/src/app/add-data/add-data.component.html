@@ -1,0 +1,31 @@
+<div>
+    <form [formGroup]="booksDetails">
+
+        <div class="position center">
+            <div class="d-flex flex" >
+                <span> name</span>
+                <input type="text" formControlName="name">
+
+            </div>
+            <div >
+                <span> author</span>
+                <input type="text" formControlName="author">
+
+            </div>
+            <div >
+                <span> genre</span>
+                <input type="text" formControlName="genre">
+
+            </div>
+            <div >
+                <span> description </span>
+                <input type="text" formControlName="description">
+
+            </div>
+        </div>
+
+
+        <button  type="submit" type="button" class="btn btn-primary" (click)="add()">Add Data</button>
+
+    </form>
+</div>
